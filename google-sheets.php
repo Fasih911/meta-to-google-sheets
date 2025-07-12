@@ -1,5 +1,4 @@
 <?php
-// google-sheets.php
 
 require_once __DIR__ . '/vendor/autoload.php';
 
@@ -8,7 +7,6 @@ use Google_Service_Sheets;
 use Google_Service_Sheets_ValueRange;
 use Dotenv\Dotenv;
 
-// Load .env
 $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
