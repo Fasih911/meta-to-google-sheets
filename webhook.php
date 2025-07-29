@@ -2,10 +2,9 @@
 // webhook.php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-// Suppress deprecated warnings for PHP 8.1+ compatibility
 error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';   
 require_once __DIR__ . '/google-sheets.php';
 
 use Dotenv\Dotenv;
